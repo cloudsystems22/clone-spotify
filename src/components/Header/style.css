@@ -1,3 +1,52 @@
-.header-h1{
-    color: green; 
+.dark {
+    background-color: black;
+    color: white;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100vw;    
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 79px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-logo{
+    filter:invert(1);
+    width: 120px;
+}
+
+.list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+}
+
+.list li{
+    display: inline;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.list li a{
+    color:white;
+}
+
+.flex-space-between{
+    justify-content: space-between;
+}
+
+.blue{
+    background-color: rgb(30, 115, 243);
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

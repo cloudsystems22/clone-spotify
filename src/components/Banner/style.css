@@ -1,0 +1,14 @@
+.fundo-banner{
+    background-color:rgb(30, 115, 243);
+    margin-top: 80px;
+    height: 600px;
+    width: 100vw;
+}
+
+.fundo-banner h1{
+    padding-top: 150px;
+    text-align: center;
+    color: rgb(17, 230, 88);
+    font-family: Arial;
+    font-size: 50pt;
+}

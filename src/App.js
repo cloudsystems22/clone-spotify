@@ -1,10 +1,9 @@
-import Header from "./components/Header";
+import Routes from "./Routes"
+import './style.css'
+
 function App(){
     return(
-        <div>
-            <h1>Meu App react</h1>
-            <Header/>
-        </div>
+        <Routes />
     )
 }
 

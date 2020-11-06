@@ -1,12 +1,18 @@
 import "./style.css"
+import logo from "../../assets/images/logo.svg"
 
-const Header = () => {
+const Header = (props) => {
   return (
-    <header>
-        <h1 className="header-h1">Spotify</h1>
+    <header className={props.name ? "dark":"blue"}>
         <nav>
-            <ul>
-                <li>Premium</li>
+            <h1><a href="#!"><img src={logo} className='img-logo'/></a></h1>
+            <ul className='list'>
+                <li><a href="#!">Premium</a></li>
+                <li><a href="#!">Ajuda</a></li>
+                <li><a href="#!">Baixar</a></li>
+                <li>|</li>
+                <li><a href="#!">Inscrever-se</a></li>
+                <li><a href="#!">Entrar</a></li>
             </ul>
         </nav>
     </header>
